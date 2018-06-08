@@ -1,0 +1,67 @@
+// Place all the styles related to the Cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.explanation{
+    margin: 100px 0;
+    width: auto;
+    font-family: $header-font;
+    margin-bottom: 100px;
+}
+
+
+.explanation-header{
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.cocktail-view{
+  font-family: $header-font;
+  padding: 20px 0;
+}
+
+.fa-plus{
+  color: $brand-green;
+  font-size: 23px;
+  shadow: 1px;
+}
+
+.cocktail-line{
+  padding: 10px 20%;
+  display: flex;
+  height: 80px;
+  color: black;
+}
+
+.cocktail-line h3{
+  padding: none;
+}
+
+.cocktail-line:hover{
+  background-color: #f4f4f4;
+}
+
+.c-line-left{
+    display: flex;
+    width: 90%;
+    align-items: center;
+
+}
+
+.c-line-right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 10%;
+}
+
+.add{
+  display:flex;
+  align-items: center;
+}

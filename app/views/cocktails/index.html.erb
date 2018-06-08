@@ -1,0 +1,26 @@
+<%= render "shared/banner"  %>
+
+
+
+<div class="landing-content">
+  <div class="explanation">
+    <div class="explanation-header">
+
+      <h1>Find Amazing Recipies - Add Your Favourites</h1>
+    </div>
+    <div class="cocktail-view">
+      <% @cocktails.each do |cocktail| %>
+        <%= link_to cocktail_path(cocktail) do %>
+        <%= render "shared/cocktail_card", name: cocktail.name %>
+        <% end %>
+      <% end %>
+
+
+    <div class="add">
+      <%= link_to new_cocktail_path do %>
+      <button class="button">Add</button>
+      <% end %>
+    </div>
+    </div>
+  </div>
+</div>

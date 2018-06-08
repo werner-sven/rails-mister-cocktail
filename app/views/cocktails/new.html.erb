@@ -1,0 +1,12 @@
+<h1>Create a new Cocktail</h1>
+
+<div class="cocktail">
+
+
+<%=  render 'form', cocktail: @cocktail %>
+</div>
+
+<%= link_to cocktails_path do %>
+
+<button class="btn btn-primary">Back</button>
+<% end %>

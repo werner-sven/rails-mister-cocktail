@@ -1,0 +1,19 @@
+.button {
+    background-color: #01e277;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    /* border-radius: 50px; */
+    font-weight: lighter;
+    opacity: 0.6;
+    width: 121px;
+}
+
+
+.button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+
+/* Build your own button classes ! */
